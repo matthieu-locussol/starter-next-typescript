@@ -5,5 +5,9 @@
    "repository": "https://github.com/matthieu-locussol/xstream",
    "author": "Matthieu LOCUSSOL",
    "license": "MIT",
-   "private": false
+   "private": false,
+   "devDependencies": {
+      "prettier": "^2.2.1",
+      "typescript": "^4.2.2"
+   }
 }
