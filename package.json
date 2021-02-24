@@ -1,9 +1,9 @@
 {
-  "name": "xstream",
-  "version": "1.0.0",
-  "description": "XStream is an hybrid music player application.",
-  "repository": "https://github.com/matthieu-locussol/xstream",
-  "author": "Matthieu LOCUSSOL",
-  "license": "MIT",
-  "private": false
+   "name": "xstream",
+   "version": "1.0.0",
+   "description": "XStream is a hybrid music player application.",
+   "repository": "https://github.com/matthieu-locussol/xstream",
+   "author": "Matthieu LOCUSSOL",
+   "license": "MIT",
+   "private": false
 }
