@@ -7,16 +7,22 @@
    "license": "MIT",
    "private": false,
    "scripts": {
+      "dev": "yarn run next dev",
+      "build": "yarn run next build",
+      "start": "yarn run next start",
+      "export": "yarn run next export",
       "lint": "eslint --ignore-path .gitignore ."
    },
    "pre-commit": [
       "lint"
    ],
    "dependencies": {
+      "next": "^10.0.7",
       "react": "^17.0.1",
       "react-dom": "^17.0.1"
    },
    "devDependencies": {
+      "@types/next": "^9.0.0",
       "@types/node": "^14.14.31",
       "@types/react": "^17.0.2",
       "@types/react-dom": "^17.0.1",
