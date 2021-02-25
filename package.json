@@ -1,8 +1,8 @@
 {
-   "name": "xstream",
+   "name": "starter-next-typescript",
    "version": "1.0.0",
-   "description": "XStream is a hybrid music player application.",
-   "repository": "https://github.com/matthieu-locussol/xstream",
+   "description": "A starter for web development using Typescript and Next.js based on my preferences.",
+   "repository": "https://github.com/matthieu-locussol/starter-next-typescript",
    "author": "Matthieu LOCUSSOL",
    "license": "MIT",
    "private": false,

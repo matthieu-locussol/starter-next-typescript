@@ -1,7 +1,7 @@
 const Index = (): JSX.Element => (
    <div>
-      <h1>Xstream</h1>
-      <p>Welcome to Xstream!</p>
+      <h1>Hello world!</h1>
+      <p>You are using Matthieu LOCUSSOL's starter using Typescript and Next.js!</p>
    </div>
 );
 
