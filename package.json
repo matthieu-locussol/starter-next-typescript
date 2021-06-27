@@ -1,6 +1,6 @@
 {
    "name": "starter-next-typescript",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "A starter for web development using Typescript and Next.js based on my preferences.",
    "repository": "https://github.com/matthieu-locussol/starter-next-typescript",
    "author": "Matthieu LOCUSSOL",
@@ -11,10 +11,14 @@
       "build": "yarn run next build",
       "start": "yarn run next start",
       "export": "yarn run next export",
-      "lint": "eslint --ignore-path .gitignore ."
+      "check:prettier": "prettier --list-different --config ./.prettierrc.json --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx}\" --list-different",
+      "check:eslint": "eslint --ignore-path .gitignore .",
+      "check:typescript": "tsc --project ./tsconfig.json --noEmit"
    },
    "pre-commit": [
-      "lint"
+      "check:typescript",
+      "check:eslint",
+      "check:prettier"
    ],
    "dependencies": {
       "next": "^11.0.1",
@@ -26,8 +30,11 @@
       "@types/react": "^17.0.2",
       "@types/react-dom": "^17.0.1",
       "@typescript-eslint/eslint-plugin": "^4.15.2",
-      "@typescript-eslint/parser": "^4.15.2",
       "eslint": "^7.20.0",
+      "eslint-config-airbnb-typescript": "^12.3.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
       "eslint-plugin-react": "^7.22.0",
       "eslint-plugin-react-hooks": "^4.2.0",
       "pre-commit": "^1.2.2",
