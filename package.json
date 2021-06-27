@@ -11,7 +11,7 @@
       "build": "yarn run next build",
       "start": "yarn run next start",
       "export": "yarn run next export",
-      "check:prettier": "prettier --list-different --config ./.prettierrc.json --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx}\" --list-different",
+      "check:prettier": "prettier --list-different --config ./.prettierrc.json --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx}\"",
       "check:eslint": "eslint --ignore-path .gitignore .",
       "check:typescript": "tsc --project ./tsconfig.json --noEmit"
    },
